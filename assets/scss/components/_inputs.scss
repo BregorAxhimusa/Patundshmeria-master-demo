@@ -1,0 +1,42 @@
+.input-addpost,
+.modal-body {
+  input,
+  select,
+  textarea {
+    border: 1px solid $border-input;
+    border-radius: 4px;
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+  label {
+    color: $paragraf;
+    font-weight: 500;
+  }
+  span {
+    border: 1px solid $border-input;
+    background-color: $white;
+  }
+}
+
+// Header
+.inside-adres {
+  color: $label-inside;
+  font-weight: 500;
+}
+
+.inside-price {
+  color: $primary-color;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.agencies-label {
+  border-right: 1px solid $label-inside;
+}
+
+*::placeholder {
+  font-size: 14px;
+  color: $border-input !important;
+}

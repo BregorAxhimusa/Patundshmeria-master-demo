@@ -1,0 +1,64 @@
+.t-table {
+    overflow: auto;
+    max-height: 80vh;
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    & th,
+    & td {
+        background-color: $white;
+        overflow: hidden;
+    }
+    & tr th {
+        font-weight: 500;
+        background-color: $white;
+        color: $headings-color;
+    }
+    & tbody td a {
+        text-decoration: none;
+    }
+    & .o-option {
+        min-width: 80px;
+    }
+}
+
+.search-table {
+    border-radius: 1rem !important;
+    & .search {
+        border: 0;
+        border-radius: 2rem;
+        & span {
+            border: 0;
+            border-radius: 2rem;
+            background-color: $white;
+        }
+    }
+}
+
+*::placeholder {
+    color: $headings-color;
+}
+
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.demo .item {
+    margin-bottom: 60px;
+}
+
+.content-slider li {
+    background-color: #ed3020;
+    text-align: center;
+    color: #FFF;
+}
+
+.content-slider h3 {
+    margin: 0;
+    padding: 70px 0;
+}

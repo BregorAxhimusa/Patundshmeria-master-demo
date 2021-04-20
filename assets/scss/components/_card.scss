@@ -1,0 +1,90 @@
+.card-index {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  .card-body {
+    padding: 20px 20px 0px 20px;
+  }
+  //img:not(.img-icon) {
+    //height: 240px;
+    //object-fit: cover;
+    //border-radius: 4px;
+  }
+  .label-number {
+    color: $primary-color;
+  }
+  p {
+    color: $paragraf;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .border-card {
+    border-top: 1px solid #f0f3f4;
+  }
+  .label-card {
+    font-size: 12px;
+    color: $paragraf;
+  }
+  .img-icon {
+    height: 18px !important;
+    width: 18px !important;
+  }
+}
+
+.card-statistic {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 1.5rem;
+  .p-number {
+    font-weight: 800;
+  }
+}
+
+// Front header
+.card-dashboard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  border: 0;
+  & .card-body {
+    & select {
+      border: 0;
+      border-radius: 0;
+      border-left: 1px solid $border-dashboard;
+      margin-left: 20px;
+
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+    & label {
+      color: $border-dashboard;
+      margin-left: 35px;
+      font-size: 0.8rem;
+    }
+  }
+}
+
+.inside-card {
+  & .card {
+    background-color: $card-inside;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    & p {
+      color: $headings-color;
+      font-size: 14px;
+    }
+    & label {
+      border-top: 1px solid $border-dashboard;
+      color: $sidebar;
+    }
+  }
+}
+
+.card-agencies {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 0;
+  .img-as {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    background-size: 100px;
+  }
+}

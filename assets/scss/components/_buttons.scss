@@ -1,0 +1,79 @@
+.button-btn {
+  padding: 10px 40px;
+  font-size: 14px;
+  opacity: 0.85;
+  &:hover {
+    opacity: 1;
+  }
+  &.btn-cms {
+    background-color: $primary-color;
+    color: $background-body;
+  }
+  &.btn-close {
+    background-color: $headings-color;
+    color: $background-body;
+  }
+  &.btn-biznes {
+    color: $white !important;
+    &:hover {
+      border-bottom: 1px solid $white;
+      border-radius: 0;
+    }
+    &.active {
+      border-bottom: 1px solid $white;
+      border-radius: 0;
+    }
+  }
+  &.btn-register {
+    background-color: $primary-color !important;
+    color: $background-body !important;
+  }
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  &.btn-readmore {
+    font-size: 1rem;
+    opacity: 0.9;
+    background-color: $primary-color;
+    color: $white;
+  }
+}
+
+.btn-kerko {
+  padding: 37px 40px;
+  font-size: 22px;
+  opacity: 0.9;
+  background-color: $primary-color;
+  color: $white;
+  &:hover {
+    opacity: 1;
+    color: $white;
+  }
+}
+
+.buton-a {
+  & a {
+    &.active {
+      background-color: transparent !important;
+      border: 0;
+      border-bottom: 2px solid $primary-color !important;
+      border-radius: 0;
+    }
+    & label {
+      cursor: pointer;
+    }
+    &:hover {
+      border: 0;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}
+
+#chartContainer {
+  height: 300px;
+  width: 100%;
+}

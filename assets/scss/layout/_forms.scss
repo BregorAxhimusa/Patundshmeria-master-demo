@@ -1,0 +1,16 @@
+.f-focus:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.img-dashboard {
+    height: 650px !important;
+    width: 100%;
+    object-fit: cover;
+}
+
+.forms-dashboard {
+    background-color: $primary-color;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

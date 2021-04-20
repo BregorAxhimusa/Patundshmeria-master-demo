@@ -1,0 +1,30 @@
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    background: $background-body;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    & #sidebarCollapse img {
+        cursor: pointer;
+    }
+    & .icon-logout {
+        text-decoration: none;
+        color: $headings-color;
+    }
+}
+
+.iconlogout {
+    border-top: 1px solid $headings-color !important;
+}
+
+//  Dashboard IMG AND ICON
+.img-header {
+    height: 15px;
+}
+
+.img-promotion {
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}

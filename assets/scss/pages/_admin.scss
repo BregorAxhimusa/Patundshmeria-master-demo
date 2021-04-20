@@ -1,0 +1,29 @@
+body {
+    font-family: avenir;
+    & .a-header {
+        text-decoration: none;
+        &:hover {
+            color: $white;
+        }
+    }
+}
+
+main {
+    background-color: $background-body;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $headings-color;
+    font-weight: 600;
+}
+
+.h3-centertext {
+    font-size: 3rem !important;
+    margin-top: 100px;
+    color: $white;
+}
